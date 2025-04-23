@@ -45,3 +45,4 @@ backend/screenshots/*
 # OS
 .DS_Store
 Thumbs.db
+.qodo
