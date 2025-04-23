@@ -1,0 +1,70 @@
+:root {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #f5f5f5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.dropzone {
+  border: 2px dashed #1976d2;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.dropzone:hover {
+  border-color: #115293;
+}
+
+.dropzone-active {
+  border-color: #4caf50;
+  background-color: rgba(76, 175, 80, 0.1);
+}
+
+.json-viewer {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  padding: 16px;
+  overflow: auto;
+  max-height: 400px;
+}
+
+.screenshot-container {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.screenshot-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.copy-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}

@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pymupdf
+python-multipart
+pillow
+numpy
+pydantic
+pydantic-settings
+pandas
+python-dotenv
+cffi
+cryptography
+pytest
+httpx
